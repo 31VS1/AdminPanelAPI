@@ -19,7 +19,7 @@ local function getcurrentDate()
 end
 
 local API = {
-    Playercount = #players:GetPlayers(),
+    Playercount = players:GetPlayers(),
     formatTime = formatTime,
     Time = formatTime(os.time()),
     Ostime = os.time(),
